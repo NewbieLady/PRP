@@ -1,0 +1,10 @@
+What is the name of the Python 2.x library to parse XML data?|xml.etree.ElementTree
+What is the method to cause Python to parse XML that is stored in a string?|fromstring()
+In this XML, which are the "complex elements"? 1 2 3 4 5 6 7 8 9 10 <people> <person> <name>Chuck</name> <phone>303 4456</phone> </person> <person> <name>Noah</name> <phone>622 7421</phone> </person> </people>|person
+In the following XML, which are attributes? 1 2 3 4 5 6 7 <person> <name>Chuck</name> <phone type="intl"> +1 734 303 4456 </phone> <email hide="yes" /> </person>|hide$type
+In the following XML, which node is the parent node of node e 4 5 6 7 <d>Y</d> <e>Z</e> </c> </a>|c
+Looking at the following XML, what text value would we find at path "/a/c/e" 7 4 5 6 </a> <d>Y</d> <e>Z</e> </c>|Z
+What is the purpose of XML Schema?|To establish a contract as to what is valid XML
+For this XML Schema: 1 2 3 4 5 6 7 <xs:complexType name="person"> <xs:sequence> <xs:element name="lastname" type="xs:string"/> <xs:element name="age" type="xs:integer"/> <xs:element name="dateborn" type="xs:date"/> </xs:sequence> </xs:complexType> And this XML, 6 4 5 <dateborn>2001-04-17</dateborn> </person> Which tag is incorrect?|Age
+What does the "Z" mean in this representation of a time: 1 2002-05-30T09:30:10Z|This time is in the UTC timezone
+Which of the following dates is in ISO8601 format?|2002-05-30T09:30:10Z

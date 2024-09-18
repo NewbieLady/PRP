@@ -1,0 +1,10 @@
+Who is credited with the REST approach to web services?|Roy Fielding
+Which of the following is true about an API?|An API is a contract that defines how to use a software library
+What is the method used to parse a string containing JSON data so that you can work with the data in Python?|json.loads()
+What kind of variable will you get in Python when the following JSON is parsed: 1 [ "Glenn", "Sally", "Jen" ]|A list with three items
+Which of the following is not true about the service-oriented approach?|An application runs together all in one place
+If the following JSON were parsed and put into the variable x, 1 2 3 4 5 6 7 8 9 10 11 { "users": [ { "status": { "text": "@jazzychad I just bought one .__.", }, "location": "San Francisco, California", "screen_name": "leahculver", "name": "Leah Culver", }, ... what Python code would extract "Leah Culver" from the JSON?|x["users"][0]["name"]
+What library call do you make to append properly encoded parameters to the end of a URL like the following: 1 http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=Ann+Arbor%2C+MI|urllib.parse.urlencode()
+What happens when you exceed the Google geocoding API rate limit?|The API starts to perform very slowly
+What protocol does Twitter use to protect its API?|OAuth
+What header does Twitter use to tell you how many more API requests you can make before you will be rate limited?|x-rate-limit-remaining

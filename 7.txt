@@ -7,4 +7,4 @@ If we open a file as follows: 1 xfile = open('mbox.txt') What statement would we
 What is the purpose of the following Python code? 4 5 1 2 3 x = x + 1 print(x) fhand = open('mbox.txt') x = 0 for line in fhand:|Count the lines in the file 'mbox.txt'
 If you write a Python program to read a text file and you see extra blank lines in the output that are not present in the file input as shown below, what Python string function will likely solve the problem? 1 2 3 4 5 6 7 8 9 From: stephen.marquard@uct.ac.za From: louis@media.berkeley.edu From: zqian@umich.edu From: rjlowe@iupui.edu ...|rstrip()
 The following code sequence fails with a traceback when the user enters a file that does not exist. How would you avoid the traceback and make it so you could print out your own error message when a bad file name was entered? 1 2 fname = input('Enter the file name: ') fhand = open(fname)|try / except
-What does the following Python code do? 2 inp = fhand.read()|Reads the entire file into the variable inp as a string
+What does the following Python code do? 1 2 fhand = open('mbox-short.txt') inp = fhand.read()|Reads the entire file into the variable inp as a string
